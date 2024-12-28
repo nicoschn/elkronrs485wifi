@@ -21,8 +21,8 @@ struct state
 } s_state = {.tcp = {.enable = true},
              .websocket = {.enable = true},
              .mqtt = {.enable = false},
-             .tx = 5,
-             .rx = 4,
+             .tx = 10,
+             .rx = 9,
              .baud = 115200};
 
 void uart_init(int tx, int rx, int baud);
